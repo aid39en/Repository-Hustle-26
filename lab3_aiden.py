@@ -1,15 +1,15 @@
 # Aiden Huynh|Lab 3|Blue
 
 # Ticket 1
-username = "aid39en" # PREDICT: this has 7 characters
+username = "aid39en" # PREDICT: this has 7 characters.
 print(len(username))
-# len(username) did in fact count every character, total of 7
+# len(username) did in fact count every character, total of 7.
 
 # Ticket 2
 print(username[0]) # PREDICT: pushes out "a"
 print(username[len(username)-1]) # PREDICT: pushes out "n"
 # The last index is len(username) - 1 because Python indexes begin counting at 0, (cont)
-# therefore the last character should be one position before the total length as measuring lengths begin at 1
+# therefore the last character should be one position before the total length as measuring lengths begin at 1.
 
 # Ticket 3 
 print("Welcome to Loop, @" + username + "!") # username is the variable containing my username.
@@ -18,7 +18,7 @@ print(f"Welcome to Loop, @{username}!") # PREDICT: Both versions should print "W
 # adding each piece of text together step by step to create the intended output.
 
 # Ticket 4
-# username[0] = "X" # run this, it breaks on purpose
+# username[0] = "X" # run this, it breaks on purpose.
 # PREDICT: Before running the broken line, I thought the first character of the username would change to X.
 # TypeError: 'str' object does not support item assignment
 print(username.upper()) # the right way
@@ -38,12 +38,12 @@ print(feed[0]) # PREDICT: "Finished my homework!" will print first.
 # Ticket 6
 feed.append("Only 5 more minutes until school ends!") # PREDICT: The fourth post will have an index of 3
 print(feed)
-# The fourth post sits at index 3 because Python lists start counting from 0 resulting in that number 
+# The fourth post sits at index 3 because Python lists start counting from 0 resulting in that number .
 
 # Ticket 7
 
-feed.pop(0)    # removes the first post
-feed.sort()    # puts the remaining posts in alphabetical order
+feed.pop(0)    # removes the first post.
+feed.sort()    # puts the remaining posts in alphabetical order.
 
 print(feed)
 
@@ -66,7 +66,7 @@ print(profile["followers"])
 # PREDICT: The follower number printed will be 100.
 # profile[0] will cause an error because dictionaries do not use number indexes.
 
-# profile[0] # run this, it breaks on purpose
+# profile[0] # run this, it breaks on purpose.
 # KeyError: 0
 
 # Dictionaries use key names instead of number indexes because each value is
@@ -79,12 +79,11 @@ profile["followers"] = profile["followers"] + 50
 profile["bio"] = "Learning Python and coding!"
 
 print(profile)
-print(profile.get("age"))
+# print(profile.get("age"))
 
 # PREDICT: .get("age") will print None because the key does not exist.
 
-# .get() is safer because it returns None instead of causing an error
-# when the key is missing.
+# .get() is safer because it returns None instead of causing an error when the key is missing.
 
 # Ticket 10
 
@@ -93,4 +92,4 @@ print(f"@{profile['username']} has {profile['followers']} followers and {len(fee
 # PREDICT: @aid39en has 150 followers and 3 posts. Top post: Great day at school!
 
 # I used a dictionary (profile) to get the username and follower count,
-# and a list (feed) to get the post count and first caption.
+# and a list (feed) to get the post count and first post.
