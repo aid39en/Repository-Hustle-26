@@ -1,7 +1,7 @@
 full_name = "Aiden Huynh"
 nickname = "Aiden"
 age = 15
-used_python_before = "True (code.org)"
+used_python_before = True
 hobbies = ["reading", "watching shows", "writing"] 
 favorites = { 
  "book": "Project: Hail Mary", 
