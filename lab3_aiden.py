@@ -92,4 +92,8 @@ print(f"@{profile['username']} has {profile['followers']} followers and {len(fee
 # PREDICT: @aid39en has 150 followers and 3 posts. Top post: Great day at school!
 
 # I used a dictionary (profile) to get the username and follower count,
+<<<<<<< Updated upstream
 # and a list (feed) to get the post count and first post.
+=======
+# and a list (feed) to get the post count and first c.
+>>>>>>> Stashed changes
